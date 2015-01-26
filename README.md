@@ -1,8 +1,8 @@
 # go-priority-queue
 a simple implementation of blocking priority-queue, constructed using two channels
 
-Using PriorityQueue.EPushBack() to insert an emergent event; using Priority.NPushBack()
-to insert a normal event; using PriorityQueue.Pop() to get an event
+Use PriorityQueue.EPushBack() to insert an emergent event; use Priority.NPushBack()
+to insert a normal event; use PriorityQueue.Pop() to get an event
 
 In this implementation, there are only two kind of events: emergent events and normal events
 when pop an event from the PriorityQueue, it will first pop an emergent events(if any)
